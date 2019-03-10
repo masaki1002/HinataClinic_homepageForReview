@@ -157,6 +157,13 @@ hr {
   line-height: 3.6;
 }
 
+.tel{
+  color: #fac70b;
+  text-decoration: none;
+  
+
+}
+
 .nav-item {
   padding: 0 10px;
 }
@@ -168,7 +175,6 @@ hr {
 .carousel {
   width: 300%;
 }
-
 
 .subtitle-text{
   padding-bottom: 2.5rem;
