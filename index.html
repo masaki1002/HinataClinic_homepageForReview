@@ -27,7 +27,7 @@
 <section id="page-menu">
   <div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-dark">
-  <a class="navbar-brand"><span class="mb-0 h3"><b style="letter-spacing:18px;">ひなた治療院</b><br><p class="tel"><i class="fas fa-phone-volume"></i>0466-53-5690</p></span></a>
+  <a class="navbar-brand tel"><span class="mb-0 h3"><b style="letter-spacing:18px;">ひなた治療院</b><br><i class="fas fa-phone-volume"></i>0466-53-5690</span></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerHinataClinic" aria-controls="navbarTogglerHinataClinic" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -326,18 +326,18 @@
   </div>
 
   <script>
-    if(navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)){
-      $(function() {
-        $('.tel').each(function() {
-          var str = $(this).html();
-          if ($(this).children().is('i')) {
-            $(this).html($('<a>').attr('href', 'tel:' + $(this).children().attr('alt').replace(/-/g, '')).append(str + '</a>'));
-          } else {
-            $(this).html($('<a>').attr('href', 'tel:' + $(this).text().replace(/-/g, '')).append(str + '</a>'));
-          }
-        });
+  if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
+    $(function() {
+      $('.tel').each(function() {
+        var str = $(this).html();
+        if ($(this).children().is('img')) {
+          $(this).html($('<a>').attr('href', 'tel:' + $(this).children().attr('alt').replace(/-/g, '')).append(str + '</a>'));
+        } else {
+          $(this).html($('<a>').attr('href', 'tel:' + $(this).text().replace(/-/g, '')).append(str + '</a>'));
+        }
       });
-    }
+    });
+  }
   </script>
 
 </body>
