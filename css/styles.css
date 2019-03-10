@@ -15,38 +15,44 @@ hr {
  img{
    width: 40%;
  }
-
 /*****************ID SELECTORS*****************/
 /* index.html */
 #page-menu {
   background-color: #1d5464;
   color: #fac70b;
   padding: 0.1rem;
+  font-size: 1.0rem;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 #slide-show {
+  text-align: center;
   background-color: #127681;
   color: #fffafa;
+  padding: 0 2rem;
 }
 
 #introduction{
-  background-color: #21174a;
-  color: #fffafa;
-  padding: 3rem 2rem;
+  background-color: #fffafa;
+  color: #ffbe00;
+  padding: 3rem 2rem 3rem;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 #services{
-  background-color: #ae7c7c;
+  background-color: #1c819e;
   color: #fffafa;
-  padding: 3rem 1rem 6rem;
+  padding: 4rem 1rem 6rem;
   text-align: center;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 #staff-introduction{
   text-align: center;
-  background-color: #3e3838;
-  color: #fffafa;
-  padding: 3rem 1rem 6rem;
+  background-color: #fffafa;
+  color: #ffbe00;
+  padding: 4rem 1rem 6rem;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 #QA{
@@ -54,35 +60,31 @@ hr {
   background-color: #6cbbb3;
   color: #fffafa;
   padding: 3rem 1rem 6rem;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
-
 #business-hours{
+  text-align: center;
+  background-color: #fffafa;
+  color: #ffbe00;
+  padding: 3rem 1rem 6rem;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+#contact{
   text-align: center;
   background-color: #35477d;
   color: #fffafa;
   padding: 3rem 1rem 6rem;
-}
-
-#contact{
-  text-align: center;
-  background-color: #c06c84;
-  color: #fffafa;
-  padding: 2rem;
-}
-
-#contact{
-  text-align: center;
-  background-color: #c06c84;
-  color: #fffafa;
-  padding: 3rem 1rem 6rem;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 #footer{
   text-align: center;
-  background-color: #f67280;
-  color: #fffafa;
-  padding: 0.02rem;
+  background-color: #fffafa;
+  color: #ffbe00;
+  padding: 1.5rem 0 0.5rem;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 /* acupuncture.html */
@@ -151,74 +153,94 @@ hr {
 /* index.html */
 .intro-format{
   margin: 0;
-  font-size: 1rem;
-  line-height: 2.2;
+  font-size: 1.1rem;
+  line-height: 3.6;
 }
 
 .nav-item {
   padding: 0 10px;
 }
-
 .carousel-item {
   padding: 0 15%;
 }
 
 .carousel {
-  width: 70%;
-  position: relative;
-  margin: auto;
+  width: 300%;
 }
 
-.service-text{
-  padding-bottom: 3rem;
+
+.subtitle-text{
+  padding-bottom: 2.5rem;
 }
 
 .service-name {
-  font-size: 0.7rem;
-  line-height: 10px;
+  font-size: 0.8rem;
+  line-height: 13px;
+  color: #000;
 }
 
 .serviceBox{
-  padding: 0 20%;
+  padding: 0 9%;
+  position: relative;
+  left: 30px;
 }
 
-.card-space{
-  position: relative;
-  right: 5%;
-  width: 120%;
+.staff-picture{
+  border-radius: 50%;
+  padding-bottom: 20px;
+}
+
+.staff-name{
+  font-size: 1.2rem;
 }
 
 .staff-intro-text{
   margin-bottom: 11px;
 }
 
-.staff-intro-table{
-  margin-top: 3%;
+.staff-position-Misuzu{
+  padding: 0 8%;
+  line-height: 40%;
 }
 
-.staff-picture{
-  border-radius: 100%;
-  width: 30%;
+.staff-position-Junichi{
+  padding: 0 8%;
+  line-height: 40%;
 }
 
-.staff-name{
-  font-size: 1.3rem;
-  padding: 2%;
+@media(max-width: 750px) {
+  .staff-position-Misuzu{
+    padding: 0 8% 15%;
+    line-height: 40%;
+  }
 }
 
 .staff-description{
-  padding: 0 8%;
-  font-size: 100%;
-  line-height: 120%;
+  padding: 0 15%;
+  line-height: 2.0;
+  font-size: 0.8rem;
 }
 
-.contact-format{
-  padding: 0 28.5%;
-  line-height: 240%;
+.Q-A{
+  padding: 1% 12%;
+  line-height: 2.2;
+}
+
+.business-top{
+  padding-top: 2%;
 }
 
 .business-info{
-  padding: 10rem;
+  text-align: left;
+  padding: 0 2%;
+  line-height: 1.4;
+}
+
+.small-business-info{
+  text-align: left;
+  padding: 0 2%;
+  line-height: 1.4;
+  font-size: 80%;
 }
 
 .googlemap {
@@ -241,17 +263,29 @@ width: 100%;
 height: 100%;
 }
 
+
 .contact-format{
   padding: 0 10%;
+  font-size: 1.1rem;
+  line-height: 3.6;
+}
+
+.mail-icon{
+  padding: 10%;
+  color: #fffafa;
 }
 
 .sns{
-  padding: 2% 3% 0;
+  padding: 5% 3% 0;
 }
 
 .sns-element{
   padding: 0 1%;
-  color: white;
+  color: #ffbe00;
+}
+
+.copy-right{
+  padding: 2% 0;
 }
 
 /* acupuncture.html */
