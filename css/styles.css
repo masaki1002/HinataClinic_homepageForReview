@@ -42,7 +42,7 @@ hr {
 #services{
   background-color: #1c819e;
   color: #fffafa;
-  padding: 4rem 1rem 6rem;
+  padding: 4rem 2rem 6rem;
   text-align: center;
   font-family: 'Kosugi Maru', sans-serif;
 }
@@ -185,8 +185,8 @@ hr {
 
 .serviceBox{
   padding: 0 9%;
-  position: relative;
-  left: 30px;
+
+
 }
 
 .staff-picture{
