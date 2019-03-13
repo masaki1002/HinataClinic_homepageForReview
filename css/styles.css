@@ -15,6 +15,8 @@ hr {
  img{
    width: 40%;
  }
+
+
 /*****************ID SELECTORS*****************/
 /* index.html */
 #page-menu {
@@ -87,6 +89,10 @@ hr {
   font-family: 'Kosugi Maru', sans-serif;
 }
 
+#bottom-nav{
+  text-align: center;
+}
+
 /* acupuncture.html */
 #acupuncture-description {
   text-align: center;
@@ -157,8 +163,14 @@ hr {
   line-height: 3.6;
 }
 
-.tel{
-  text-decoration: none;
+.navbar-brand {
+    color: #fac70b  !important;
+}
+
+@media screen and (min-width: 750px) {
+	a[href^="tel:"] {
+		pointer-events: none;
+	}
 }
 
 .nav-item {
@@ -278,7 +290,7 @@ height: 100%;
 }
 
 .sns{
-  padding: 5% 3% 0;
+  padding: 2% 3% 0;
 }
 
 .sns-element{
@@ -289,6 +301,13 @@ height: 100%;
 .copy-right{
   padding: 2% 0;
 }
+
+.ahe{
+  position: relative;
+  margin: auto;
+  color: #fac70b;
+}
+
 
 /* acupuncture.html */
 .acupuncture-image{
