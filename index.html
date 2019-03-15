@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>🏄‍ひなた治療院-TOP PAGE🏄‍</title>
+  <title>ひなた治療院‍</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- disabling the phone number detection system -->
   <meta name="format-detection" content="telephone=no">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="image/favicon/faviconIcon.jpg">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -115,26 +116,109 @@
     <div class="serviceBox">
       <div class="container">
         <div class="row">
+          <!-- 鍼 -->
           <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="acupuncture.html" style="text-decoration: none;">
-              <div class="card border-light mb-3" style="max-width: 16rem;">
+            <!-- 鍼 Button trigger modal -->
+            <button type="button" class="btn" data-toggle="modal" data-target="#acupuncture">
                 <img class="card-img-top" src="http://www.silhouette-ac.com/sozai/m/138/37/138372m.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title service-name">はり</h5>
                 </div>
-              </div>
-            </a>
-          </div>
+            </button>
 
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="moxibustion-cupping.html" style="text-decoration: none;">
-              <div class="card border-light mb-3" style="max-width: 16rem;">
-                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/31/138314m.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title service-name">灸</h5>
+            <!-- 鍼 Modal -->
+            <div class="modal fade" id="acupuncture" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #fcdd6c;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h1>鍼</h1>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>当院ではディスポーザブル（使い捨て）の鍼を使用しており、衛生管理・消毒などの徹底を
+                          心掛けておりますので、感染症などの心配はありません。また、鍼の太さは毛髪程度で、注射針の
+                          ような痛みを感じる事はほとんどありません。どうしても鍼に抵抗がある方には無理強いしたりする事はしませんので、
+                          安心してご来院下さい。当院で行なう鍼治療は、身体の表面、主に経穴（ツボ）にあたる部位や反応点
+                          （特定の筋や腱・痛みの強い部位）に鍼を刺入し刺激を与えたり、鍼に低周波を流す方法があります。
+                          それぞれ刺激量が変わってきますので、症状等によって使い分けて治療を行なっていきます。</p>
+                        </div>
+                      </div>
+                      <hr class="border-line">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item">初診料: １，０００円＋税</li>
+                          <li class="list-group-item">鍼灸治療: ５，０００円＋税</li>
+                          <li class="list-group-item">花粉症治療: ３，０００円＋税</li>
+                          <li class="list-group-item">逆子治療: ３，０００円＋税</li>
+                        </ul>
+                        <!-- <div class="card bg-light mb-3 cost-table">
+                          <div class="card-header" style="background-color: #fffafa; font-size: 1.2rem;">
+                          治療費
+                         </div>
+                          <ul class="list-group list-group-flush list-size">
+                            <li class="list-group-item">初診料: １，０００円＋税</li>
+                            <li class="list-group-item">鍼灸治療: ５，０００円＋税</li>
+                            <li class="list-group-item">花粉症治療: ３，０００円＋税</li>
+                            <li class="list-group-item">逆子治療: ３，０００円＋税</li>
+                          </ul>
+                        </div> -->
+
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </a>
+            </div>
+          </div>
+
+          <!-- お灸 -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- お灸 Button trigger modal -->
+            <button type="button" class="btn" data-toggle="modal" data-target="#moxibustion">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/31/138314m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">お灸</h5>
+                </div>
+            </button>
+            <!-- お灸 Modal -->
+            <div class="modal fade" id="moxibustion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background: #fcdd6c;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modal-font-color" style="color: #fac70b;">
+                      <h1>お灸</h1>
+                      <br>
+                      <p>お灸は、身体の表面、主に経穴（ツボ）にあたる部位や反応点（特定の筋や腱・痛みの強い部位）に“もぐさ”を
+                      据えます。また、温灸といって不燃性の紙の筒に“もぐさ”を乗せて、皮膚に“もぐさ”が直接触れないようにするやり方も
+                      あります。この場合は、ポカポカと心地良い温熱刺激を得る事が出来ます。</p>
+                    </div>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
+
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-3 col-md-6 col-sm-6">
@@ -297,6 +381,8 @@
 <!-- Contact -->
 <section id="contact">
   <div class="container">
+    <a class="mail-icon" href="mailto:hinata_chiryoin@yahoo.co.jp?subject=問い合わせ&amp;"><i class="fas fa-envelope fa-3x"></i></a>
+    <br>
     <div class="row contact-format">
       <p>氏名・年齢・連絡先・詳しい症状・質問等をご記入のうえ、送信してください。
     お問い合わせ頂いた方には、その後数日以内にご返答の連絡をさせて頂いております。
@@ -304,7 +390,6 @@
     その際は、お手数ですがお電話にてお問い合わせ下さい。</p>
     </div>
   </div>
-<a class="mail-icon" href="mailto:hinata_chiryoin@yahoo.co.jp?subject=問い合わせ&amp;"><i class="fas fa-envelope fa-3x"></i></a>
 
 </section>
 
@@ -328,7 +413,7 @@
 <!-- Bottom Page -->
 <section id="bottom-nav">
         <nav class="navbar fixed-bottom navbar-dark" style="color: #fac70b;background-color: #1d5464;">
-            <button class="navbar-toggler ahe" type="button" data-toggle="collapse" data-target="#bottom-Nav" aria-controls="bottom-Nav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler hamberger-location" type="button" data-toggle="collapse" data-target="#bottom-Nav" aria-controls="bottom-Nav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon" style="color: #fac70b; "></span>
             </button>
 
@@ -336,8 +421,9 @@
               <ul class="navbar-nav">
                 <br>
                 <li class="nav-item">
-                  <a class="nav-link" href="tel:0466-53-5690" style="color:#facf5a;">TEL: 0466-53-5690</a>
+                  <a class="nav-link" href="tel:0466-53-5690" style="color:#facf5a;">ひなた治療院　TEL: 0466-53-5690</a>
                 </li>
+                <hr class="border-line">
                 <li class="nav-item">
                   <a class="nav-link" href="#page-menu" style="color:#facf5a;">Top</a>
                 </li>

@@ -3,15 +3,6 @@ body{
   margin: 0;
 }
 
-hr {
-   border: none;
-   height: 0px;
-   width: 5%;
-   border-style: dotted none none;
-   border-color: grey;
-   border-width: 7px;
- }
-
  img{
    width: 40%;
  }
@@ -53,7 +44,7 @@ hr {
   text-align: center;
   background-color: #fffafa;
   color: #ffbe00;
-  padding: 4rem 1rem 6rem;
+  padding: 4rem 0.4rem 6rem;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -75,9 +66,9 @@ hr {
 
 #contact{
   text-align: center;
-  background-color: #35477d;
+  background-color: #127681;
   color: #fffafa;
-  padding: 3rem 1rem 6rem;
+  padding: 3rem 1rem 3rem;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
@@ -85,12 +76,13 @@ hr {
   text-align: center;
   background-color: #fffafa;
   color: #ffbe00;
-  padding: 1.5rem 0 0.5rem;
+  padding: 0.6rem 0 0.5rem;
   font-family: 'Kosugi Maru', sans-serif;
 }
 
 #bottom-nav{
   text-align: center;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 
 /* acupuncture.html */
@@ -199,6 +191,34 @@ hr {
   padding: 0 9%;
 }
 
+.modal-description {
+  color: #ffbe00;
+  line-height: 40px;
+}
+
+.card-header{
+  background-color: ;
+}
+
+.cost-table{
+  position: relative;
+  margin: auto;
+  width: 80%;
+  color: #facf5a;
+  font-size: 0.9rem;
+
+}
+
+.price-icon{
+position: relative;
+margin: auto;
+}
+
+.list-size{
+  font-size: 0.9rem;
+}
+
+
 .staff-picture{
   border-radius: 50%;
   padding-bottom: 20px;
@@ -299,15 +319,24 @@ height: 100%;
 }
 
 .copy-right{
-  padding: 2% 0;
+  padding: 3% 0;
+  font-size: 0.2rem;
 }
 
-.ahe{
+.hamberger-location{
   position: relative;
   margin: auto;
   color: #fac70b;
 }
 
+.border-line{
+   border: none;
+   height: 0px;
+   width: 5%;
+   border-style: dotted none none;
+   border-color: #fac70b;
+   border-width: 7px;
+ }
 
 /* acupuncture.html */
 .acupuncture-image{
