@@ -119,17 +119,17 @@
           <!-- 鍼 -->
           <div class="col-lg-3 col-md-6 col-sm-6">
             <!-- 鍼 Button trigger modal -->
-            <button type="button" class="btn service-button" data-toggle="modal" data-target="#acupuncture" style="background-color: #fffafa; ">
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#acupuncture" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
                 <img class="card-img-top" src="http://www.silhouette-ac.com/sozai/m/138/37/138372m.jpg" alt="Card image cap">
-                  <h5 class="service-name">お灸</h5>
+                <div class="card-body">
+                  <h5 class="card-title service-name">はり</h5>
+                </div>
+              </div>
             </button>
-
-
-
-
             <!-- 鍼 Modal -->
             <div class="modal fade" id="acupuncture" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-              <div class="modal-dialog" role="document">
+              <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <div class="modal-header" style="background-color: #fcdd6c;">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -162,18 +162,6 @@
                           <li class="list-group-item">花粉症治療: ３，０００円＋税</li>
                           <li class="list-group-item">逆子治療: ３，０００円＋税</li>
                         </ul>
-                        <!-- <div class="card bg-light mb-3 cost-table">
-                          <div class="card-header" style="background-color: #fffafa; font-size: 1.2rem;">
-                          治療費
-                         </div>
-                          <ul class="list-group list-group-flush list-size">
-                            <li class="list-group-item">初診料: １，０００円＋税</li>
-                            <li class="list-group-item">鍼灸治療: ５，０００円＋税</li>
-                            <li class="list-group-item">花粉症治療: ３，０００円＋税</li>
-                            <li class="list-group-item">逆子治療: ３，０００円＋税</li>
-                          </ul>
-                        </div> -->
-
                         </div>
                       </div>
                       <div class="modal-footer">
@@ -188,108 +176,637 @@
           <!-- お灸 -->
           <div class="col-lg-3 col-md-6 col-sm-6">
             <!-- お灸 Button trigger modal -->
-            <button type="button" class="btn" data-toggle="modal" data-target="#moxibustion">
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#moxibustion" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
                 <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/31/138314m.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title service-name">お灸</h5>
                 </div>
+              </div>
             </button>
-            <!-- お灸 Modal -->
-            <div class="modal fade" id="moxibustion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-              <div class="modal-dialog" role="document">
+              <!-- お灸 Modal -->
+              <div class="modal fade" id="moxibustion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header" style="background-color: #fcdd6c;">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body modal-description">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <h1>お灸     </h1>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <br>
+                            <p>お灸は、身体の表面、主に経穴（ツボ）にあたる部位や反応点（特定の筋や腱・痛みの強い部位）に“もぐさ”を
+                            据えます。また、温灸といって不燃性の紙の筒に“もぐさ”を乗せて、皮膚に“もぐさ”が直接触れないようにするやり方も
+                            あります。この場合は、ポカポカと心地良い温熱刺激を得る事が出来ます。</p>
+                          </div>
+                        </div>
+                        <hr class="border-line">
+                        <div class="row">
+                          <ul class="list-group list-group-flush cost-table">
+                            <li class="list-group-item">初診料: １，０００円＋税</li>
+                            <li class="list-group-item">___治療: ５，０００円＋税</li>
+                            <li class="list-group-item">___治療: ３，０００円＋税</li>
+                            <li class="list-group-item">___治療: ３，０００円＋税</li>
+                          </ul>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- あん摩・指圧・マッサージ -->
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <!-- あん摩・指圧・マッサージ Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#anma-fingerPressureTheraphy-massage" onfocus="this.blur();">
+              <div class="card border-light mb-3" style="max-width: 16rem;">
+                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/27/138278m.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title service-name">あん摩・指圧・マッサージ</h5>
+                </div>
+              </div>
+            </button>
+            <!-- あん摩・指圧・マッサージ Modal -->
+            <div class="modal fade" id="anma-fingerPressureTheraphy-massage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
-                  <div class="modal-header" style="background: #fcdd6c;">
+                  <div class="modal-header" style="background-color: #fcdd6c;">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-                    <div class="modal-font-color" style="color: #fac70b;">
-                      <h1>お灸</h1>
-                      <br>
-                      <p>お灸は、身体の表面、主に経穴（ツボ）にあたる部位や反応点（特定の筋や腱・痛みの強い部位）に“もぐさ”を
-                      据えます。また、温灸といって不燃性の紙の筒に“もぐさ”を乗せて、皮膚に“もぐさ”が直接触れないようにするやり方も
-                      あります。この場合は、ポカポカと心地良い温熱刺激を得る事が出来ます。</p>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>あん摩・指圧・マッサージ</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>当院では、押す・引く・撫でる・さする・揉む・叩く等といった手技を用いて、個々の症状、体格などに適した刺激量を選んで治療を行なっていきます。
+
+                          あん摩・指圧は経穴（ツボ）や経絡（ツボとツボを結ぶ経路）を意識して施術するのに対して、マッサージはリンパや血液の流れ、筋肉の走行に沿って施術を行ないます。
+                          また、あん摩・指圧は体の中心から抹消に向かって遠心性の刺激を与えるのに対して、マッサージは体の抹消から中心に向かって求心性の刺激を与えていきます。
+                          いずれの効果も皮膚からの触圧刺激により、直接的にはリンパ管や血管などの循環器系に、間接的には神経系の反射を介して、内臓などに影響を与えます。
+
+                          それぞれ手技や理論などは違いますが、治療や癒しを目的とする事は共通しています。
+                          あん摩は中国、指圧は日本、マッサージはフランスで生まれた手技療法です。
+                          現在、日本においてあん摩・指圧・マッサージは、1つの国家資格として認められています。</p>
+                        </div>
+                      </div>
+                      <hr class="border-line">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item">初診料: １，０００円＋税</li>
+                          <li class="list-group-item">___治療: ５，０００円＋税</li>
+                          <li class="list-group-item">___治療: ３，０００円＋税</li>
+                          <li class="list-group-item">___治療: ３，０００円＋税</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                      </div>
                     </div>
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">閉じる</button>
-
-                  </div>
                 </div>
               </div>
             </div>
           </div>
 
+          <!-- オイルマッサージ -->
           <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="anma-fingerPressureTheraphy-massage.html" style="text-decoration: none;">
-              <div class="card border-light mb-3" style="max-width: 16rem;">
-                <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/27/138278m.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title service-name">あん摩・マッサージ・指圧</h5>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="oilMassage.html" style="text-decoration: none;">
+            <!-- オイルマッサージ Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#oilMassages" onfocus="this.blur();">
               <div class="card border-light mb-3" style="max-width: 16rem;">
                 <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/130/05/130055m.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title service-name">オイルマッサージ</h5>
                 </div>
               </div>
-            </a>
+            </button>
+            <!-- オイルマッサージ Modal -->
+            <div class="modal fade" id="oilMassages" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #fcdd6c;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>オイルマッサージ</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>当院では、植物性オイル（グレープシード・ホホバ・スイートアーモンド・マカデミアナッツ）をメインとして、個々の症状、体調、気分等によって数種類のエッセンシャルオイルから適したものを選択し、ブレンドして使用しています。
+                          治療のみならずリラクゼーションを目的としてもお受けいただけます。
+                          尚、男性に施術する場合は背部（首～腰）と膝から下のみとさせて頂きますので、ご了承下さい。
+                          また、フェイシャルマッサージ・足裏マッサージは行なっておりません。</p></p>
+                        </div>
+                      </div>
+                      <hr class="border-line">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item">初診料: １，０００円＋税</li>
+                          <li class="list-group-item">___治療: ５，０００円＋税</li>
+                          <li class="list-group-item">___治療: ３，０００円＋税</li>
+                          <li class="list-group-item">___治療: ３，０００円＋税</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <div class="container">
-        <div class="row">
+          <!-- リンパ浮腫治療 -->
           <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="lymphticDrainage.html" style="text-decoration: none;">
+            <!-- リンパ浮腫治療 Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#lymphticDrainage" onfocus="this.blur();">
               <div class="card border-light mb-3" style="max-width: 16rem;">
                 <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/130/07/130079m.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title service-name">リンパ浮腫治療</h5>
                 </div>
               </div>
-            </a>
+            </button>
+            <!-- リンパ浮腫治療 Modal -->
+            <div class="modal fade" id="lymphticDrainage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #fcdd6c;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>リンパ浮腫治療</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>リンパ浮腫とは　体内組織に　タンパク質や水分が溜まる状態をいいます。</p>
+                          <p style="margin-bottom: 0.1rem; text-align:left;">原因として</p>
+                          <p style="font-size: 0.9rem; text-align:left;">①原発性浮腫:リンパ節やリンパ管の発育不全によるもの</p>
+                          <p style="font-size: 0.9rem; line-height:160%; text-align:left;">②続発性浮腫:乳ガン・子宮ガン・前立腺ガンなどの手術や放射線治療の後遺症、静脈疾患、<span class="break">寄生虫によるもの</p>
+                          <br>
+                          <p>
+                          体内組織のリンパの流れが滞るため　腕や足がむくみ・だるさ・重さ
+                          疲れやすさ・深部痛などを感じます。
+                          さらに　免疫力が低下するため　炎症を起こしやすくなります。
+                          むくみは　手術後すぐに発症する場合もあれば　5年後、10年後に発症する場合もあります。
+                          症状はゆっくり進行しますが、適切な治療を受けなかったり、
+                          炎症を繰り返すと象皮症にまで進むこともあります。
+                          むくみを感じたら、早い段階で専門医の診断を受け、
+                          専門知識と技術を習得したセラピストによる複合的理学療法を受けることが大切です。
+                          </p>
+                          <br>
+
+                          <p style="text-decoration: underline;">"複合的理学療法"とは</p>
+                          <ul class="remove-bullet">
+                            <li class="in-between">・スキンケア</li>
+                            <li class="in-between">・医療リンパドレナージ<span class="break">（リンパ液を排液するマッサージ）</span></li>
+                            <li class="in-between">・圧迫療法<span class="break">（弾性包帯やスリーブ・ストッキングによる）</span></li>
+                            <li class="in-between">・運動療法</li>
+                            <li class="in-between">・セルフケア指導</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <hr class="border-line">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item">※セルフケア指導料含</li>
+                          <li class="list-group-item">初診料: ２，０００円＋税</li>
+                          <li class="list-group-item">６０分: ９，０００円＋税</li>
+                          <li class="list-group-item">９０分: １３，５００円＋税</li>
+                          <li class="list-group-item">弾性包帯施行料: １，０００円＋税</li>
+                          <li class="list-group-item">弾性包帯購入費用: ４，０００円 ～ １５，０００円＋税</li>
+                        </ul>
+                      </div>
+
+                      <hr class="border-line">
+
+                      <div class="limphtic-paragraph">
+                      <p style="font-style: italic; text-decoration: underline;">ズボン・スカートのオーダーメイド承ります</p>
+                      <p>
+                        「バンデージを巻いた時にはけるサイズのズボンがない・・
+                        <span class="break">ウエストを締め付けないサイズに合わせると、他の部分が緩すぎる・・」
+                        <span class="break">そこで、患者様の声を元に、当院ではオーダーメイド（仮縫いなし）の<span class="break">
+                        ズボンとスカートの製作を始めました。
+                      </p>
+
+                      <!-- パンツ-->
+                        <div class="pants">
+                          <p>ズボン冬用</p>
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <th scope="row" class="cloth-table">生　地</th>
+                                <td class="cloth-table">ポリエステル  １００％(手洗い)</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" class="cloth-table">色</th>
+                                <td class="cloth-table">黒</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" class="cloth-table">デザイン</th>
+                                <td class="cloth-table">ウエストゴム・<span class="break">前ファスナー開き　<span class="break">裏地付き</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" class="cloth-table">価　格</th>
+                                <td class="cloth-table">１５,０００円～</td>
+                              </tr>
+                            </tbody>
+                          </table>
+
+                          <p>ズボン夏用</p>
+                          <table class="table">
+                            <tbody>
+                              <tr>
+                                <th scope="row" class="cloth-table">生　地</th>
+                                <td class="cloth-table">綿　１００％ <span class="break">ポリエステル  １００%(手洗い)</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" class="cloth-table">色</th>
+                                <td class="cloth-table">黒・縞(綿)<span class="break">黒(ポリエステル)</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" class="cloth-table">デザイン</th>
+                                <td class="cloth-table">ウエスト総ゴム・<span class="break">調節ひも付き</td>
+                              </tr>
+                              <tr>
+                                <th scope="row" class="cloth-table">価　格</th>
+                                <td class="cloth-table">８,８００円～</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      <br>
+                      <!-- スカート-->
+                      <div class="skirt">
+                        <p>スカート冬用</p>
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="cloth-table">生　地</th>
+                              <td class="cloth-table">ポリエステル１００％<span class="break">(手洗い)</span></td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">色</th>
+                              <td class="cloth-table">黒</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">デザイン</th>
+                              <td class="cloth-table">バイヤス仕立て・<span class="break">脇ファスナー<span class="break">裏地付き・<span class="break">ヒップハンガータイプ<span class="break">・台形スカート・<span class="break">4枚はぎフレアースカート</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">価　格</th>
+                              <td class="cloth-table">１７,０００円～</td>
+                            </tr>
+                          </tbody>
+                        </table>
+
+                        <p>スカート夏用</p>
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="cloth-table">生　地</th>
+                              <td class="cloth-table">綿　１００％ <span class="break">ポリエステル　１００%<span class="break">(手洗い)</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">色</th>
+                              <td class="cloth-table">黒</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">デザイン</th>
+                              <td class="cloth-table">バイヤス仕立て・<span class="break">脇ファスナー<span class="break">裏地付き・<span class="break">ヒップハンガータイプ<span class="break">・台形スカート・<span class="break">4枚はぎフレアースカート</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">価　格</th>
+                              <td class="cloth-table">１７,０００円～</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+
+                      <ul class="products-warning">
+                        <li>価格はサイズにより変わります。</li>
+                        <li>ズボンの裾幅については、ストレート又はせまくすることができます。</li>
+                        <li>別途、梱包料・送料が１,０００円～加算されます。</li>
+                        <li>製作日数は、１～２週間。他に、デザインや色にご希望がある場合は、２～４週間です。</li>
+                        <li>オーダーメイドのため、キャンセルや製作後のサイズの変更はできません。</li>
+                        <li>完全受注製作の為、料金の振り込みを確認後に製作を始めます。</li>
+                        <br>
+                        <li>詳しい内容を知りたい方、ご注文はメールまたは電話かFAXでお願いします。</li>
+                        <li>ご注文された方に、サイズ表を送付いたしますので、ご記入の上返信して下さい。</li>
+                      </ul>
+                    </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- ヨモギ蒸し -->
           <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="saunaSteam.html" style="text-decoration: none;">
+            <!-- ヨモギ蒸し Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#saunaSteams" onfocus="this.blur();">
               <div class="card border-light mb-3" style="max-width: 16rem;">
                 <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/166/16/166167m.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title service-name">ヨモギ蒸し</h5>
                 </div>
               </div>
-            </a>
+            </button>
+            <!-- ヨモギ蒸し Modal -->
+            <div class="modal fade" id="saunaSteams" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #fcdd6c;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>ヨモギ蒸し</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>
+                            よもぎにはシネオール他の精油成分が含まれ、
+                            温熱効果があり湯冷めをしにくいのです。
+                            「よもぎ蒸し」をした後、不思議とほかほか感が持続するのは、
+                            この成分が働きかけている ことも大きいのです。
+                            また殺菌・消炎作用がある事から肌に大変良く、しっしん、吹き出物、
+                            かさつきを抑えます。お灸のもぐさは、よもぎが利用されていますのが、
+                            これは腰痛・神経痛に効果的に働きかけると言われているからなのです。
+                            漢方として名高いよもぎ。
+                            私達の体には色々な良い作用を示してくれるのです。
+                            30代～60代後半の女性から大きな反響を頂いております。
+                          </p>
+                        </div>
+                      </div>
+                      <hr class="border-line">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item">２，０００円＋税（鍼・灸・指圧・オイルマッサージと併用の時は半額）</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- 美顔鍼・小児鍼 -->
           <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="beautyFace-infantAcupuncture.html" style="text-decoration: none;">
+            <!-- 美顔鍼・小児鍼 Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#beautyFace-infantAcupunctures" onfocus="this.blur();">
               <div class="card border-light mb-3" style="max-width: 16rem;">
                 <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/33/138336m.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title service-name">美顔鍼・小児鍼</h5>
                 </div>
               </div>
-            </a>
+            </button>
+            <!-- 美顔鍼・小児鍼 Modal -->
+            <div class="modal fade" id="beautyFace-infantAcupunctures" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #fcdd6c;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>美顔鍼・小児鍼</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>
+                          美顔鍼とは顔面・頭皮のツボに鍼を打つことにより皮膚や筋肉に作用し、血液やリンパの流れを
+                          促進させ、細胞内の老廃物を排除させ栄養を送り込むことができます。
+                          汗腺や皮脂腺の分泌も調整され、皮膚に潤いと血色、弾力を与え、乾燥肌や顔色の
+                          くすみ、シミ、小ジワ、吹き出物等の改善、さらに皮膚のたるみや引き締め効果により
+                          リフトアップ・小顔効果も期待できます。
+                          美顔鍼では極めて細い鍼を使用しますが、顔面の血管は非常に細い為、稀に内出血等する場合が
+                          あります。この事を御了承頂いた上で施術させていただきます。</p>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>小児鍼</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>
+                            小児鍼とは先の丸い鍼や平らな形の鍼を使って全身を摩擦したりツボに刺激を与えたりするものです。
+                            鍼で皮膚を刺激する事により、内臓や脳の働きが活性化し免疫力を高め、自律神経やホルモンの調整を行います。
+                            疳の虫・夜泣き・キーキー声を出す・よく泣く・不機嫌・噛み付く・
+                            夜尿症・風邪を引きやすい・よく熱を出す・ひきつけ・食欲不振・
+                            下痢・便秘・よく腹痛を起こす・アレルギー疾患・喘息・扁桃腺炎
+                            などの症状に効果があります。
+                            副作用の心配はほとんどありません。(まれに眠くなる場合があります)
+                            治療時間は５～１０分です。週に１～２回を３ヶ月以上続ける頃から効果が現れます。
+                            体質改善には１年以上が望ましいです。また、年齢は新生児から治療できます。
+                            早い時期に始めるほど高い効果が得られます。</p>
+                        </div>
+                      </div>
+                      <hr class="border-line">
+                      <div class="row">
+                        <ul class="list-group list-group-flush cost-table">
+                          <li class="list-group-item">美顏 初診料: １，０００円＋税</li>
+                          <li class="list-group-item">美顏 おためし: ３，０００円＋税</li>
+                          <li class="list-group-item">美顏 しっかり: ５，０００円＋税</li>
+                          <li class="list-group-item">美顏 スペシャル: １０，０００円＋税</li>
+                          <li class="list-group-item">耳鍼: ２，０００円＋税（鍼・灸・指圧・オイルマッサージと併用の時は半額）</li>
+                          <li class="list-group-item">小児鍼: １，０００円＋税</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- 適応症・禁忌症 -->
           <div class="col-lg-3 col-md-6 col-sm-6">
-            <a href="indication-contraindication.html" style="text-decoration: none;">
+            <!-- 適応症・禁忌症 Button trigger modal -->
+            <button type="button" class="btn invisible-button" data-toggle="modal" data-target="#indication-contraindications" onfocus="this.blur();">
               <div class="card border-light mb-3" style="max-width: 16rem;">
                 <img class="card-img-top" src="https://www.silhouette-ac.com/sozai/m/138/28/138285m.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 class="card-title service-name">適応症・禁忌症</h5>
                 </div>
               </div>
-            </a>
+            </button>
+            <!-- 適応症・禁忌症 Modal -->
+            <div class="modal fade" id="indication-contraindications" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-color: #fcdd6c;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body modal-description">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3>適応症・禁忌症</h3>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <br>
+                          <p>治療を行なったからといって、すぐに全ての疾患の症状が改善されるとは限りません。
+                          疾患によっては治療後すぐに症状が改善されるものもありますが、慢性的な疾患・症状は、数回にわたる治療が必要な場合もあります。慢性的な肩こりなど、長い間溜め込んできた疾患・症状を、一回の治療で完全に取り去るのは、なかなか難しいものです。
+                          治療後、一時的に症状が悪化したような感じになったり、体がだるくなる事がありますが、これは症状が改善していく前兆ですのでご心配ありません。
+                          また、治療後は養生（体を休める）する必要もあるので、治療直後の入浴は避け、大食深酒をしないようにし、激しい運動を控え、睡眠をしっかりとる事が望ましいでしょう。
+
+                          ここでは、鍼灸・あん摩・マッサージ・指圧の適応疾患をまとめてご紹介します。
+                          一部それぞれの治療法に適さない疾患も含みます。</p>
+                        </div>
+                      </div>
+
+                      <!-- 適応症 -->
+                      <div class="Tekiyosho">
+                        <p>適応症</p>
+                        <table class="table">
+
+                          <thead>
+                            <tr>
+                              <th scope="col-xs-2"></th>
+                              <th scope="col-xs-10">疾患名</th>
+                            </tr>
+                          </thead>
+
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="cloth-table">神経系</th>
+                              <td class="cloth-table">三叉神経痛・肋間神経痛・坐骨神経痛・顔面神経痛・顔面神経麻痺・筋緊張性頭痛・自律神経失調症・脳卒中後遺症・帯状疱疹・不眠症・めまい・しびれ</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">運動器系</th>
+                              <td class="cloth-table">肩関節周囲炎（五十肩）・むちうち症・頸肩腕症候群・寝ちがい・顎関節症肩こり・腰痛（ギックリ腰、椎間板ヘルニア）・テニス肘・腱鞘炎・バネ指
+                                  変形性膝関節症・アキレス腱炎・捻挫・関節炎・関節リウマチ・筋肉痛筋筋膜炎・外傷後遺症</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">消化器系</th>
+                              <td class="cloth-table">口内炎・口角炎・歯痛・胃腸炎・胃下垂・胃酸過多・腹部膨満 胃十二指腸潰瘍・過敏性腸症候群・下痢・便秘・痔疾患</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">循環器系</th>
+                              <td class="cloth-table">高血圧症・低血圧症・動脈硬化症・心悸亢進・狭心症・動悸・むくみ・冷え性</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">呼吸器系</th>
+                              <td class="cloth-table">風邪・気管支炎・喘息・咽頭炎・喉頭炎・扁桃炎・副鼻腔炎・鼻炎・せき</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">泌尿器系</th>
+                              <td class="cloth-table">慢性腎炎・ネフローゼ・腎、尿路結石症・膀胱炎・尿道炎・前立腺肥大</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">感覚器系</th>
+                              <td class="cloth-table">眼精疲労・仮性近視・眼瞼痙攣・白内障・ただれ目 ものもらい・メニエール症候群・耳鳴り・難聴・乗り物酔い</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">代謝障害</th>
+                              <td class="cloth-table">糖尿病・甲状腺機能亢進（バセドウ病）・貧血・痛風</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">婦人科系</th>
+                              <td class="cloth-table">月経痛・月経不順・更年期障害・不妊症・つわり・逆子・乳腺炎・乳汁分泌不全</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">小児科系</th>
+                              <td class="cloth-table">虚弱体質・夜尿症・夜泣き・疳の虫・消化不良・小児喘息</td>
+                            </tr>
+                            <tr>
+                              <th scope="row" class="cloth-table">その他</th>
+                              <td class="cloth-table">皮膚炎・蕁麻疹・花粉症・円形脱毛症・慢性疲労・しゃっくり・インポテンツ等</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!-- 禁忌症 -->
+                      <div class="Kinkisyo">
+                        <p>禁忌症</p>
+                        <table class="table">
+                          <tbody>
+                            <tr>
+                              <th scope="row" class="cloth-table"></th>
+                              <td class="cloth-table">法定伝染病および、その他の感染症・急性炎症疾患
+                          重篤な疾患（末期悪性腫瘍、心臓疾患、肺結核など）・高熱疾患
+                          異常な血圧状態・血友病・壊血病・精神異常
+                          その他、満腹時（食後直後）や泥酔時、高熱がある時は、治療を避けた方が良いでしょう。</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                  </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-info" data-dismiss="modal">閉じる</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
     </div>
 </section>
 
@@ -422,7 +939,7 @@
               <ul class="navbar-nav">
                 <br>
                 <li class="nav-item">
-                  <a class="nav-link" href="tel:0466-53-5690" style="color:#facf5a;">ひなた治療院　TEL: 0466-53-5690</a>
+                  <a class="nav-link" href="tel:0466-53-5690" style="color:#facf5a;">ひなた治療院　TEL/FAX: 0466-53-5690</a>
                 </li>
                 <hr class="border-line">
                 <li class="nav-item">
