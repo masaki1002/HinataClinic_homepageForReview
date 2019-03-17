@@ -389,7 +389,7 @@ height: 100%;
   @media(max-width: 750px) {
     .cloth-table{
       line-height: 100%;
-      font-size: 0.01rem;
+      font-size: 0.1rem;
     }
   }
 
