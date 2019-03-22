@@ -151,8 +151,16 @@ body{
 /* index.html */
 .intro-format{
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 3.6;
+}
+
+@media (max-width: 750px) {
+  .intro-format{
+    margin: 0;
+    font-size: 1.0rem;
+    line-height: 2.2;
+  }
 }
 
 .navbar-brand {
@@ -297,6 +305,14 @@ margin: auto;
   line-height: 2.2;
 }
 
+@media (max-width: 750px) {
+  .Q-A{
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 2.0;
+  }
+}
+
 .business-top{
   padding-top: 2%;
 }
@@ -341,10 +357,21 @@ height: 100%;
   line-height: 3.6;
 }
 
+
+@media (max-width: 750px) {
+  .contact-format{
+    margin: 0;
+    padding-top: 3%;
+    font-size: 0.9rem;
+    line-height: 2.0;
+  }
+}
+
 .mail-icon{
-  padding: 10%;
+
   color: #fffafa;
 }
+
 
 .sns{
   padding: 2% 3% 0;
